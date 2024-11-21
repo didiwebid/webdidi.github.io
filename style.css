@@ -1,0 +1,125 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+#peta {
+    position: relative;
+    padding-bottom: 50%;
+    margin-top: 30px;
+}
+
+#peta iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.card-item {
+    width: 18rem;
+    margin: 5px;
+}
+
+#tabkontak {
+    font-size: 1rem;
+}
+#tabkontak td {
+    padding: 2px 5px;
+    vertical-align: top;
+}
+
+#tabkontak td.icon {
+    text-align: center;
+}
+
+#tabkontak td.content {
+    text-align: left;
+}
+
+#tabkontak a {
+    text-decoration: none;
+    font-weight: bold;
+    color: lightsalmon;
+}
+
+.judul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    color: darkslateblue;
+    font-weight: bold;
+    
+}
+
+.judul .judul2 {
+    color: coral;
+}
+
+.judul::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px auto;
+}
+
+.bshadow {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 8px 6px -6px #aaa;
+}
+
+#testimoni .carousel-item {
+    padding: 20px;
+    text-align: center;
+}
+
+#testimoni .avatar {
+    width: 64px;
+}
+
+#testimoni .pernyataan {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+#testimoni .nama {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: darkslateblue;
+}
+
+#testimoni .jabatan {
+    color: coral;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+#slidepromo .carousel-caption {
+    text-shadow: 1px 0 19px rgba(0,0,0,1);
+}
+
+#slidepromo h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#bt-up {
+    position: fixed;
+    z-index: 99;
+    right: 10px;
+    bottom: 10px;
+}
+#bt-up a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: gray;
+    opacity: 0.2;
+}
+
+#bt-up a:hover {
+    opacity: 1;
+}
